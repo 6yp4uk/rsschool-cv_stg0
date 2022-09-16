@@ -4,6 +4,7 @@
 - E-mail andreiburmagin@gmail.com
 - Telegram @andreiburmagin
 - GitHub [6yp4uk](https://github.com/6yp4uk/)
+- Discord AnBu(@6yp4uk)
 -----------------------------------------------------------
 
 ##About Me
