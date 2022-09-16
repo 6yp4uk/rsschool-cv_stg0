@@ -1,25 +1,25 @@
 # Andrei Burmagin
 -----------------------------------------------------------
-##Contacts
+## Contacts
 - E-mail andreiburmagin@gmail.com
 - Telegram @andreiburmagin
 - GitHub [6yp4uk](https://github.com/6yp4uk/)
 - Discord AnBu(@6yp4uk)
 -----------------------------------------------------------
 
-##About Me
+## About Me
 
 I am 35 years old. Working in the management of the IT department of a public institution. I am responsible for the network equipment and everything related to it. The knowledge gained during the course will definitely be useful to me in my current work, perhaps it will help me change my occupation
 
 -----------------------------------------------------------
-##Skills
+## Skills
 - HTML - beginner
 - CSS - beginner
 - JavaScripr - beginner
 - docker, docker-compose -beginner
 - GitHub - beginner
 
-##Code Example
+## Code Example
 ```
 function clearActiveClasses() {
     slides.forEach((slides) => {
@@ -27,9 +27,9 @@ function clearActiveClasses() {
     })
 }
 ```
-##Education
+## Education
 - Vologda State University,physical and mathematical
 - CCNA
-##Language
+## Language
 - Russian -native
 - English - beginner
