@@ -26,3 +26,9 @@ function clearActiveClasses() {
     })
 }
 ```
+##Education
+- Vologda State University,physical and mathematical
+- CCNA
+##Language
+- Russian -native
+- English - beginner
