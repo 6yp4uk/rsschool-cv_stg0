@@ -154,6 +154,10 @@
      border: 2px solid #E06733;
      background-color:#EDF2EC;
 }
+.welcom-button:hover{
+     background: #E06733;
+     color: #F5F5F5;
+}
 .about{
      width: 1440px;
      height: 666px;
