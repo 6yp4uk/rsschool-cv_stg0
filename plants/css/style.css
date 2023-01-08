@@ -1,0 +1,468 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* inter-900 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/inter-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* inika-700 - latin */
+  @font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+.html{
+     scroll-behavior: smooth;
+}  
+.body{
+     width:1440px;
+     margin: 0 auto;
+     background-color:#F5F5F5;
+
+
+  }
+.header{
+       width:1440px;
+       height: 134px;
+       margin: 0 auto;
+       background-color:#EDF2EC
+}
+.header-navbar{
+     padding-top: 42px;
+     padding-bottom: 42px;
+     display: flex;
+     align-items:center;
+     justify-content: space-between;
+    
+}
+.header-logo{
+     margin-left: 109px;
+}
+.header-nav{
+     margin-right: 63px;
+}
+.header-nav-list{
+     padding-left: 0px ;
+     list-style-type: none;
+     display: flex;
+     justify-content: flex-start;
+}
+.header-nav-list-item{
+     margin-right: 46px;
+
+}
+.header-list-item{
+     text-decoration: none;
+     font-family: 'Inika';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 50px;
+     color: #010201;
+}
+.welcom{
+     height: 532px;
+     background-color:#EDF2EC;
+     display: flex;
+     align-items:center;
+     justify-content: center;
+}
+.welcom-sections{
+     width: 1222px;
+     height: 408px;
+     display: flex;
+     align-items:center;
+     justify-content: space-between;
+
+}
+.welcom-leaf{
+
+}
+.Welcom-section{
+     width: 540px;
+     height: 340px;
+     display: flex;
+     flex-flow: column;
+     justify-content: space-between;
+ 
+}
+.h1-welcom{
+     margin: 0;
+     font-family: Inter;
+     font-weight: 700;
+     font-size: 44.6px;
+     line-height: 50px;
+     color: #717171;
+}
+.welcom-word{
+     margin: 0;
+     font-family: Inter;
+     font-weight: 700;
+     font-size: 44.6px;
+     line-height: 50px;
+     color:#499A18
+}
+.welcom-text{
+     font-family: Inter;
+     font-weight: 400;
+     font-size: 20px;
+     color: #636060;
+}
+.welcom-button{
+     font-family: Inter;
+     font-size: 16px;
+     font-weight: 400;
+     width: 158px;
+     height: 44px;
+     border-radius: 10px;
+     color: #000000;
+     border: 2px solid #E06733;
+     background-color:#EDF2EC;
+}
+.welcom-button:hover{
+     background: #E06733;
+     color: #F5F5F5;
+}
+.about{
+     width: 1440px;
+     height: 666px;
+     display: flex;
+     justify-content: center;
+     background:#FFFFFF;
+}
+.about-section{
+     width: 1222px;
+     height: 479px;
+     margin-top: 93px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.about-section-text{
+     width: 605px;
+     height: 350px;
+     display: flex;
+     flex-flow: column;
+     justify-content: space-between;
+}
+.h2-about{
+     margin: 0;
+     font-family: 'Inika';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 40px;
+     line-height: 52px;
+     color: #499A18;
+     
+}
+.word-about{
+color:#E06733
+}
+.about-text{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 30px;
+     color: #636060;
+}
+.service{
+     width: 1440px;
+     height: 1260px;
+     padding-top: 40px;
+     background-color: #EDF2EC;
+}
+.service-content{
+     width: 1007px;
+     height: 94px;
+     margin-left: 109px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.h2-service-content{
+     font-family: 'Inika';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 40px;
+     line-height: 52px;
+     color: #499A18;
+} 
+.service-content-button{
+     width: 559px;
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+}
+.serveice-button{
+     width: 161px;
+     height: 50px;
+     border: 1px solid #E06733;
+     border-radius: 5px;
+     font-family: 'Inika';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 26px;
+     color: #E06733;
+     background-color: #EDF2EC;
+}
+.services{
+     width: 1222px;
+     height: 955px;
+     margin-left: 109px;
+     margin-top: 90px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-content: space-between;
+     background-color:#EDF2EC
+}
+.service-item{
+     width:330px;
+     height: 450px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: 1px solid #E3E1D5;
+     border-radius: 20px 20px 20px 20px;
+}
+.service-item-img{
+     width: 330px;
+     height: 350px;
+     border-radius: 20px 20px 0px 0px;
+
+}
+.service-item-h5{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     color: #E06733;
+}
+.service-item-text{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     margin-bottom: 36px;
+     color: #717171;
+}
+.serveice-button:hover{
+     background: #E06733;
+     color: #F5F5F5;
+
+}
+.price{
+     width: 1440px;
+     height: 520px;
+     padding-top: 38px;
+     background-color:#F5F5F5
+}
+.price-wripper{
+     width: 1225px;
+     height: 405px;
+     margin-left: 109px;
+     display: flex;
+     justify-content: space-between;
+}
+.wripper-button-prices{
+     width: 332px;
+     height: 282px;
+     margin-top: 60px;
+     border: 1px solid #E3E1D5;
+     border-radius: 20px;
+     display: flex;
+}
+.pricess_button{
+     width: 250px;
+     height: 214.01px;
+     margin: auto;
+}
+.prices-button:hover{
+     background: #E06733;
+     color: #F5F5F5;
+}
+
+.prices{
+     width: 332px;
+     height: 391.01px;
+}
+.head-prices{
+     margin: 0;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 48px;
+     color: #000000;
+}
+.wrapper-h2{
+     width: 452px;
+     height: 103px;
+}
+.h2-prices-text{
+     margin: 0;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 39px;
+     line-height: 50px;
+     text-align: right;
+     color: #000000;
+}
+.word-gardeners{
+     color: #499A18;
+}
+.prices-ringht{
+     width: 452px;
+     height: 405px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-end;
+
+}
+.prices-button{
+     width: 162px;
+     height: 50px;
+     margin-top: 38px;
+     margin-bottom: 39px;
+     font-family: 'Inika';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 26px;
+     text-align: center;
+     color: #E06733;
+}
+
+.leafs-prices {
+     width: 152px;
+     height: 175px;
+}
+
+.contact{
+     width: 1440px;
+     height: 550px;
+     display: flex;
+
+     background: #EDF2EC;
+}
+.contact-woman{
+     width: 400px;
+     height: 497px;
+     margin-top: 53px;
+     margin-left:109px; 
+}
+.contact-us{
+     width: 195px;
+     height: 51px;
+     margin-left: 113px;
+     margin-top: 60px;
+}
+.h2-contact-us{
+     font-family: 'Inika';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 52px;
+     color: #499A18;
+}
+.contacts-container{
+     width: 450px;
+     height: 50px;
+     margin-top: 148px;
+     margin-left: 64px;
+
+}
+.footer{
+     width: 1440px;
+     height: 130px;
+     background: #FFFFFF;
+     display: flex;
+}
+.cotainer-footer{
+     width: 1222px;
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 40px;
+     margin-left: 109px;
+
+}
+.footer-data{
+     width:182px;
+     height:50px;
+
+}
+.f-left{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 50px;
+}
+.f-centre{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 50px;
+     color: #000000;
+}
+.f-left_2022{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 50px;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.link-footer-git{
+     text-decoration: none;
+}
+.link-footer-RSS{
+     text-decoration: none;
+}
