@@ -279,6 +279,10 @@
      color: #E06733;
      background-color: #EDF2EC;
 }
+.select_button{
+     color: #EDF2EC;
+     background-color: #E06733;
+}
 .services{
      width: 1222px;
      height: 955px;
@@ -291,7 +295,7 @@
      background-color:#EDF2EC
 }
 .service-item{
-     width:330px;
+     width:100px;
      height: 450px;
      display: flex;
      flex-direction: column;
@@ -299,6 +303,7 @@
      align-items: center;
      border: 1px solid #E3E1D5;
      border-radius: 20px 20px 20px 20px;
+     /*filter: blur(2px);*/
 }
 .service-item-img{
      width: 330px;
@@ -341,6 +346,10 @@
      align-items: center;
      justify-content: end;
      flex-direction: column;
+
+}
+.blur{
+     filter: blur(2px);
 }
 .price{
      height: 520px;
@@ -356,18 +365,201 @@
      justify-content: space-between;
 }
 .wripper-button-prices{
-     width: 332px;
-     height: 282px;
+     box-sizing: border-box;
      margin-top: 60px;
+     width: 332px;
+     height: 282.01px;
+     left: 109px;
+     top: 149px;
      border: 1px solid #E3E1D5;
      border-radius: 20px;
      display: flex;
+justify-content: center;
+align-items: center;
 }
-.pricess_button{
+.accordion__item:not(.accordion__item_show) .accordion__body {
+     display: none;
+}
+.arrow_button{
+     display: block;
+     margin-top: -1px;
+     width: 5px;
+     height: 5px;
+     border: 1px solid #fff;
+     border-right-color: rgb(255, 255, 255);
+     border-right-style: solid;
+     border-right-width: 1px;
+     border-bottom-color: rgb(255, 255, 255);
+     border-bottom-style: solid;
+     border-bottom-width: 1px;
+     border-right: none;
+     border-bottom: none;
+     transform: rotate(-135deg);
+}
+.button_dropdown {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 16px;
+     height: 16px;
+     border: none;
+     border-radius: 50%;
+     background: #AEA1A1;
+     transition: all 0.3s ease;
+   }
+   .button_dropdown:hover {
+     background: #8BA07E;
+     cursor: pointer;
+   }
+.price_button{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 16px;
+     height: 16px;
+     border: none;
+     border-radius: 50%;
+     background: #AEA1A1;
+     transition: all 0.3s ease;
+}
+.price_button:hover {
+     background: #8BA07E;
+     cursor: pointer;
+   }
+.button__arrow {
+     display: block;
+     margin-top: -1px;
+     width: 5px;
+     height: 5px;
+     border: 1px solid #fff;
+     border-right: none;
+     border-bottom: none;
+     transform: rotate(-135deg);
+   }
+.according_content{
+     padding-top: 6px;
+     padding-bottom: 15px;
+     width: 165px;
+     border-top: 1px solid #AEA1A1;
+     font-style: normal;
+     color: #717171;
+     font-family: Inter, sans-serif;
+}
+.according_content_hedden{
+     display: none;
+}
+.according__price{
+     margin:0;
+     margin-top: 10px;
+     margin-bottom: 12px;
+     font-size: 1.2rem;
+     line-height: 1.2rem;
+     font-weight: 400;
+     font-style: normal;
+     color: #000;
+}
+.cost{
+     margin: 0;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 20px;
+     color: #E06733;
+}
+.accordion_content .accordion__price {
+     margin-top: 10px;
+     margin-bottom: 12px;
+     font-size: 1.2rem;
+     line-height: 1.2rem;
+     font-weight: 400;
+     font-style: normal;
+     color: #000;
+   }
+.accordion__order-button {
+     width: 86px;
+     height: 25px;
+     background: #fff;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     font-size: 14px;
+     line-height: 20px;
+     font-weight: 700;
+     font-style: normal;
+     color: #717171;
+   }
+.accordion__order-button:hover {
+     border: 1px solid #E06733;
+   }
+
+.according__text{ 
+     margin: 0;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 10px;
+     line-height: 10px;
+     color: #717171;
+}
+.price_items{
      width: 250px;
-     height: 214.01px;
-     margin: auto;
+     min-height: 214px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
 }
+.price_item{
+     width: 250px;
+     height: 50px;
+     background: #EDF2EC;
+     border-radius: 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.price_item_active{
+     height: 175px;
+     background: #D6E7D2;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     transition: all 0.3s ease;
+ 
+}
+.price_item_active .button_dropdown {
+     transform: rotate(180deg);
+   }
+.h3_button{
+     width: 250px;
+     height: 50px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.price_text{
+     margin: 0;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 20px;
+     
+/* or 100% */
+
+     color: #000000;
+
+}
+.button_arrow{
+     display: block;
+     margin-top: -1px;
+     width: 5px;
+     height: 5px;
+     border: 1px solid #fff;
+     border-right: none;
+     border-bottom: none;
+     transform: rotate(-135deg);
+}
+
 .prices-button:hover{
      background: #E06733;
      color: #F5F5F5;
@@ -414,7 +606,7 @@
 
 }
 .prices-button{
-     width: 162px;
+    /* width: 162px;
      height: 50px;
      margin-top: 38px;
      margin-bottom: 39px;
@@ -424,7 +616,18 @@
      font-size: 20px;
      line-height: 26px;
      text-align: center;
+     color: #E06733;*/
+     width: 161px;
+     height: 50px;
+     border: 1px solid #E06733;
+     border-radius: 5px;
+     font-family: 'Inika';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 26px;
      color: #E06733;
+     background-color:#F5F5F5
 }
 
 .leafs-prices {
@@ -456,8 +659,6 @@
      height: 51px;
      order: 1;
      margin-top: 60px;
-
-
 }
 .h2-contact-us{
      margin: 0;
@@ -469,10 +670,95 @@
      color: #499A18;
 }
 .contacts-container{
+     display: flex;
+     justify-content: center;
      width: 450px;
      height: 50px;
      order: 2;
      margin-top: 148px;
+     background: #D6E7D2;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 0px;
+}
+.city_h3{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 40px;
+     letter-spacing: 0.05em;
+     color: #717171;
+     margin: 0;
+     margin-left: 10px;
+
+/* identical to box height, or 200% */
+letter-spacing: 0.05em;
+
+color: #717171;
+}
+.city{
+     width: 100%;
+     height: 50px;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+
+}
+.city_select{
+     height: 284px;
+
+}
+.city_button{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     align-items: center;
+     justify-content: space-between;
+     height: 50px;
+     margin: auto;
+}
+.dropdown-content{
+     visibility:hidden;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     background: #DCE9D9;
+
+}
+.unhidden_dropdown-content{
+     visibility:visible;
+}
+.color_button_city{
+     background: #C1E698;
+}
+.button_dropdown_city {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 16px;
+     height: 16px;
+     border: none;
+     border-radius: 50%;
+     background: #AEA1A1;
+     transition: all 0.3s ease;
+     margin-right: 10px;
+}
+.button_dropdown_city:hover {
+     background: #8BA07E;
+     cursor: pointer;
+   }
+.drop_text{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 40px;
+     margin-left: 43px;
+
+/* or 250% */
+letter-spacing: 0.05em;
+
+color: #499A18;
 }
 .woman_city{
      width: 1222px;
@@ -1127,11 +1413,7 @@
           width: 300px;
           height: 50px;
           margin-bottom: 132px;
-   
-    }
-    .City{
-          width: 300px;
-          height: 50px;
+
     }
     .woman_img{
           margin: 0;
