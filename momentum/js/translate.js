@@ -1,0 +1,9 @@
+greetingTranslation = [
+    { en : 
+
+    },
+    {
+       ru:sd
+    }
+
+]

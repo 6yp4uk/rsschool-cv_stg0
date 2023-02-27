@@ -5,7 +5,7 @@ bckgrn = document.querySelector('.body')
 slide_next = document.querySelector('.slide-next')
 slide_prev = document.querySelector('.slide-prev')
 bgNum = getRandomNum();
-
+//console.log(bgNum)
 
 function setLocalStorage() {
     localStorage.setItem('name', getname.value);
@@ -43,6 +43,7 @@ getTimeofDay();
 
 function getRandomNum(){
   return (Math.floor(Math.random()*(20-1) + 1))
+  
 }
 //body.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/18.jpg')";
 
@@ -51,22 +52,27 @@ function change_bg(){
   newState = getTimeofDay();
   state[1] = newState;
   if(state[0] == state[1]){
-    return
   }
   else {
     setBg()
     state[0] = state[1]
   }
+  //console.log(state)
   setTimeout(change_bg, 1000);
 }
 change_bg()
 
 function setBg(){
+  //console.log("!!!!!" + bgNum)
   const img = new Image();
   if(bgNum < 10){ 
     bgNum = "0"+ bgNum;
+    bgNum = String(bgNum)
+    //console.log(typeof(bgNum))
   }
+  //console.log("????"+ bgNum)
   img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${newState}/${bgNum}.jpg`;
+  //console.log(img.src)
   img.onload = () => {
     document.body.style.backgroundImage = "url(" + img.src + ")"; 
   };
