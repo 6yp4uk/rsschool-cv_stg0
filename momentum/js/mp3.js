@@ -79,12 +79,12 @@ function playPrev(){
   const playList = [
     {      
       title: 'Aqua Caelestis',
-      src: './rsschool-cv/momentum/assets/sounds/Aqua Caelestis.mp3',
+      src: '/rsschool-cv/momentum/assets/sounds/Aqua Caelestis.mp3',
       duration: '00:58'
     },  
     {      
       title: 'Ennio Morricone',
-      src: './rsschool-cv/momentum/assets/sounds/Ennio Morricone.mp3',
+      src: '/rsschool-cv/momentum/assets/sounds/Ennio Morricone.mp3',
       duration: '01:37'
     },  
     {      
